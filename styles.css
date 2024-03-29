@@ -2,34 +2,45 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center; /* Aliniați textul la centru */
-    background-color: #f8f8f8; /* Adăugați o culoare de fundal mai plăcută */
+    text-align: center; /* Alinează textul la centru */
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
-section#content {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#content {
     padding: 20px;
+    font-size: 18px;
 }
 
 article {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     margin-bottom: 30px;
 }
 
-h2#albastru {
-    color: #007bff; /* Albastru pentru titlurile secțiunilor */
-}
-
-h2#rosu {
-    color: #dc3545; /* Roșu pentru titlurile secțiunilor speciale */
+article img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
@@ -37,6 +48,17 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+
     bottom: 0;
     width: 100%;
+}
+
+#albastru{
+    color: blue;
+    font-size: 30px;
+}
+
+#rosu{
+    color: red;
+    font-size: 23px;
 }
